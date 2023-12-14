@@ -4,7 +4,8 @@
 
 ### What is Enigma2023? 
 ### It is a collection of Python scripts that simulate how ransomware behaves. 
-#### I've created this project for educational purposes in the field of cybersecurity. Additionally, my deep interest in understanding the mechanics behind ransomware has driven me to develop this repository.
+#### I've created this project for educational purposes in the field of cybersecurity. 
+#### Additionally, my deep interest in understanding the mechanics behind ransomware has driven me to develop this repository.
 #
 # gen_keys.py
 ![Generate keys](./images/gen_keys.jpg)
@@ -12,7 +13,8 @@
 pip install rsa
 # 
 RSA Key Pair Generation Script
-This script allows you to generate RSA key pairs with customizable key sizes (512,4096 or other value bits)
+This script allows you to generate RSA key pairs with customizable key sizes 
+(512,4096 or other value bits)
 and save them to specified files.
 
 # Execution information
