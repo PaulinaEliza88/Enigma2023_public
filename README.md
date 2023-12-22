@@ -1,5 +1,4 @@
-### By the end of the week, the full repository will appear here
-#
+# 
 # Enigma2023_public
 
 ### What is Enigma2023? 
@@ -13,10 +12,9 @@
 # prerequisites
 pip install rsa
 # 
-RSA Key Pair Generation Script
-This script allows you to generate RSA key pairs with customizable key sizes 
-(512,4096 or other value bits)
-and save them to specified files.
+#### RSA Key Pair Generation Script
+#### This script allows you to generate RSA key pairs with customizable key sizes 
+#### (512,4096 or other value bits) and save them to specified files.
 
 # Execution information
 ``` r
