@@ -106,3 +106,20 @@ Note:
 #
 #
 # 
+# enum_folders_files.py
+![img](./images/enum.jpg)
+This script allows you to enumerate folders and files in a specified directory while providing configuration options via the 'common_config.py' module.
+Example usage:
+- To enumerate a directory:
+``` r
+python enum_folders_files.py
+```
+in next step paste path to folder you want to enumerate:
+Enter the directory path to enumerate (e.g., /path/to/directory):
+``` r
+C:\Users\Test
+```
+- Customize the 'common_config.py' module to configure the script according to your requirements.
+- Always make sure you have the necessary permissions to access the specified directory.
+#
+#
