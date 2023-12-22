@@ -9,6 +9,7 @@
 #
 # gen_keys.py
 ![Generate keys](./images/gen_keys.jpg)
+###Generates the public and private keys for the RSA asymmetric encryption algorithm.
 # prerequisites
 pip install rsa
 # 
@@ -25,7 +26,7 @@ python gen_keys.py --generate-keys --public-key  public.pem  --private-key priva
 ```
 Options:
 ``` r
-  --generate-keys     Generate new RSA keys.
+  --generate-keys    Generate new RSA keys.
   --key-value        Key size in bits (512 or 4096). Default is 512.
   --public-key       Public key file path. Default is "public_key.pem".
   --private-key      Private key file path. Default is "private_key.pem".
