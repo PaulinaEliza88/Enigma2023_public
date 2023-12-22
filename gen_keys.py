@@ -1,4 +1,3 @@
-# this is gen keys
 import rsa
 import argparse
 

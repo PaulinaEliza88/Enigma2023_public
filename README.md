@@ -1,5 +1,6 @@
-# 
+
 # Enigma2023_public
+#### (Public version of Enigma2023 project.)
 
 ### What is Enigma2023? 
 ### It is a collection of Python scripts that simulate how ransomware behaves. 
@@ -30,5 +31,48 @@ Options:
   --private-key      Private key file path. Default is "private_key.pem".
 ```
 #
+#
+# encrypt_file.py
+![img](./images/encrypt.jpg)
+
+The script encrypts the file given in the input.
+### Dependencies
+This script requires the following Python libraries:
+- `os`
+- `base58`
+- `argparse`
+- `rsa`
+- `re`
+- `cryptography`
+
+Ensure that you have these dependencies installed in your Python environment.
+# Execution information
+
+``` r
+  python encrypt_file.py example.txt
+```
+The encrypted file will be saved with a modified filename containing the encoded AES key, such as example.bl2Kt.txt
+#
+#
+# decrypt_file.py
+![img](./images/decrypt.jpg)
+The script decrypts the file given in the input. 
+The key for decryption will be taken from the file name.
+### Dependencies
+This script requires the following Python libraries:
+- `os`
+- `base58`
+- `argparse`
+- `rsa`
+- `re`
+- `cryptography`
+
+Ensure that you have these dependencies installed in your Python environment.
+# Execution information
+
+``` r
+  python decrypt_file.py example.NVr58o63HGwj7PaDRKs_Sbd_f6dKvJKM47o-NsK3coZTg2ErSdfa8C_k2KhSYVIKrBrfnrUpzrwZYzDDvpk4d.txt
+```
+The decrypted file will be saved as "example.txt"
 #
 #
