@@ -76,3 +76,33 @@ Ensure that you have these dependencies installed in your Python environment.
 The decrypted file will be saved as "example.txt"
 #
 #
+# wipe_file.py
+![img](./images/wipe.jpg)
+Description:
+This Python script allows you to securely wipe and delete an existing file or folder by overwriting its content with random data multiple times.
+
+# Usage:
+Command-line Arguments:
+filename: The path to the file you want to wipe and delete.
+--rounds: (Optional) The number of overwrite rounds to perform (default is 3).
+
+# Execution information
+
+In this case file to be deleted must be in the same folder as the script:
+``` r
+python wipe_file.py file.txt
+```
+or wipe file from the path:
+``` r
+python wipe_file.py "C:\Users\Documents\example.txt"
+python wipe_file.py "C:\Users\Documents\example.txt" --rounds 5
+```
+The script will first overwrite the file's content multiple times with random data and then delete the file or folder, making it challenging to recover the original content.
+
+Note:
+- Be cautious when using this script, especially with system-critical files or directories. Deleting system files or directories can cause problems with your operating system.
+- Ensure you have the necessary permissions to delete the specified files or directories.
+- Running the script as an administrator might be required in some cases.
+#
+#
+# 
